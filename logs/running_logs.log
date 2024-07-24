@@ -1,2 +1,190 @@
 [2024-07-23 17:18:02,374: INFO: main: welcome to our custom log]
 [2024-07-23 17:18:26,937: INFO: main: welcome to our custom log]
+[2024-07-24 11:10:32,510: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 11:11:46,494: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 11:12:53,312: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 11:13:15,141: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 11:15:58,817: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 11:16:34,906: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 11:17:24,705: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 11:17:24,719: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-24 11:17:24,719: INFO: common: created directory at: artifacts]
+[2024-07-24 11:17:24,724: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-24 11:17:24,726: INFO: 986331348: Downloading data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-24 11:18:01,576: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-24 11:39:30,709: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-24 11:39:30,724: ERROR: main: while scanning a simple key
+  in "config\config.yaml", line 10, column 1
+could not find expected ':'
+  in "config\config.yaml", line 22, column 2]
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\config\configuration.py", line 12, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\utiles\common.py", line 37, in read_yaml
+    raise e
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\utiles\common.py", line 31, in read_yaml
+    content = yaml.safe_load(yaml_file)
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\scanner.py", line 152, in need_more_tokens
+    self.stale_possible_simple_keys()
+  File "C:\Users\ASUS\anaconda3\envs\kidney-py3-TF2.0\lib\site-packages\yaml\scanner.py", line 291, in stale_possible_simple_keys
+    raise ScannerError("while scanning a simple key", key.mark,
+yaml.scanner.ScannerError: while scanning a simple key
+  in "config\config.yaml", line 10, column 1
+could not find expected ':'
+  in "config\config.yaml", line 22, column 2
+[2024-07-24 11:40:18,984: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-24 11:40:18,984: ERROR: main: while scanning a simple key
+  in "config\config.yaml", line 10, column 1
+could not find expected ':'
+  in "config\config.yaml", line 22, column 2]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\config\configuration.py", line 12, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\utiles\common.py", line 37, in read_yaml
+    raise e
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\utiles\common.py", line 31, in read_yaml
+    content = yaml.safe_load(yaml_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\scanner.py", line 152, in need_more_tokens
+    self.stale_possible_simple_keys()
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\scanner.py", line 291, in stale_possible_simple_keys
+    raise ScannerError("while scanning a simple key", key.mark,
+yaml.scanner.ScannerError: while scanning a simple key
+  in "config\config.yaml", line 10, column 1
+could not find expected ':'
+  in "config\config.yaml", line 22, column 2
+[2024-07-24 11:42:25,788: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-24 11:42:25,788: ERROR: main: while scanning a simple key
+  in "config\config.yaml", line 10, column 1
+could not find expected ':'
+  in "config\config.yaml", line 22, column 2]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\config\configuration.py", line 12, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\utiles\common.py", line 37, in read_yaml
+    raise e
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\utiles\common.py", line 31, in read_yaml
+    content = yaml.safe_load(yaml_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\scanner.py", line 152, in need_more_tokens
+    self.stale_possible_simple_keys()
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\scanner.py", line 291, in stale_possible_simple_keys
+    raise ScannerError("while scanning a simple key", key.mark,
+yaml.scanner.ScannerError: while scanning a simple key
+  in "config\config.yaml", line 10, column 1
+could not find expected ':'
+  in "config\config.yaml", line 22, column 2
+[2024-07-24 11:43:18,769: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-24 11:43:18,787: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 11:43:18,788: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-24 11:43:18,788: INFO: common: created directory at: artifacts]
+[2024-07-24 11:43:18,788: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-24 11:43:18,788: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-24 11:44:06,055: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-24 11:44:06,951: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
