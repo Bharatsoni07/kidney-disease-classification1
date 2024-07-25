@@ -7,7 +7,7 @@ from cnnClassifier import logger
 STAGE_NAME = "Evaluation stage"
 
 
-class EvaluationPipeline:
+class EvaluationPipeline:     
     def __init__(self):
         pass
 
