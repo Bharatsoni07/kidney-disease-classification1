@@ -708,3 +708,9 @@ x==========x]
 [2024-07-25 12:48:03,124: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-07-25 12:48:39,770: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 12:48:39,770: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 12:48:39,770: INFO: common: created directory at: artifacts]
+[2024-07-25 12:48:50,787: INFO: common: json file saved at: scores.json]
+[2024-07-25 12:48:53,855: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-25 12:48:54,489: INFO: builder_impl: Assets written to: C:\Users\ASUS\AppData\Local\Temp\tmp2vizcvf4\model\data\model\assets]
