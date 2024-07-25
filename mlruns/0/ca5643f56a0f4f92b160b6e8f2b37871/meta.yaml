@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ASUS/Desktop/kidney-disease-classification-deep-learning-project/kidney-disease-classification1/mlruns/0/ca5643f56a0f4f92b160b6e8f2b37871/artifacts
+end_time: 1721902043832
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca5643f56a0f4f92b160b6e8f2b37871
+run_name: masked-trout-692
+run_uuid: ca5643f56a0f4f92b160b6e8f2b37871
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721902024232
+status: 3
+tags: []
+user_id: ASUS

@@ -753,3 +753,601 @@ x==========x]
 [2024-07-25 14:58:15,343: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-07-25 15:26:50,654: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-25 15:26:50,654: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:26:50,654: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:26:50,654: INFO: common: created directory at: artifacts]
+[2024-07-25 15:26:50,654: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-25 15:26:50,654: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-25 15:27:30,243: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-25 15:27:31,374: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-25 15:27:31,374: INFO: main: *******************]
+[2024-07-25 15:27:31,374: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-25 15:27:31,378: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:27:31,380: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:27:31,380: INFO: common: created directory at: artifacts]
+[2024-07-25 15:27:31,381: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-25 15:27:32,559: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-25 15:27:33,250: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-25 15:27:33,250: INFO: main: *******************]
+[2024-07-25 15:27:33,250: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-25 15:27:33,256: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:27:33,260: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:27:33,262: INFO: common: created directory at: artifacts]
+[2024-07-25 15:27:33,263: INFO: common: created directory at: artifacts\training]
+[2024-07-25 15:28:15,331: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-25 15:28:15,331: INFO: main: *******************]
+[2024-07-25 15:28:15,331: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-25 15:28:15,336: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:28:15,340: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:28:15,343: INFO: common: created directory at: artifacts]
+[2024-07-25 15:28:27,588: INFO: common: json file saved at: scores.json]
+[2024-07-25 15:28:27,588: INFO: common: json file saved at: scores.json]
+[2024-07-25 15:28:27,588: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-25 15:35:15,555: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-25 15:35:15,555: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:35:15,555: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:35:15,555: INFO: common: created directory at: artifacts]
+[2024-07-25 15:35:15,555: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-25 15:35:15,555: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-25 15:36:02,019: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-25 15:36:02,665: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-25 15:36:02,665: INFO: main: *******************]
+[2024-07-25 15:36:02,665: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-25 15:36:02,665: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:36:02,665: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:36:02,665: INFO: common: created directory at: artifacts]
+[2024-07-25 15:36:02,665: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-25 15:36:03,247: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-25 15:36:03,719: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-25 15:36:03,719: INFO: main: *******************]
+[2024-07-25 15:36:03,719: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-25 15:36:03,719: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:36:03,719: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:36:03,719: INFO: common: created directory at: artifacts]
+[2024-07-25 15:36:03,719: INFO: common: created directory at: artifacts\training]
+[2024-07-25 15:36:49,428: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-25 15:36:49,431: INFO: main: *******************]
+[2024-07-25 15:36:49,432: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-25 15:36:49,436: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:36:49,440: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:36:49,442: INFO: common: created directory at: artifacts]
+[2024-07-25 15:37:03,419: INFO: common: json file saved at: scores.json]
+[2024-07-25 15:37:03,421: INFO: common: json file saved at: scores.json]
+[2024-07-25 15:37:05,597: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-25 15:37:06,256: INFO: builder_impl: Assets written to: C:\Users\ASUS\AppData\Local\Temp\tmpzbz0zz7p\model\data\model\assets]
+[2024-07-25 15:37:23,834: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-25 15:45:36,439: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-25 15:45:36,439: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:45:36,455: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:45:36,455: INFO: common: created directory at: artifacts]
+[2024-07-25 15:45:36,455: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-25 15:45:36,455: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-25 15:45:55,195: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-25 15:45:55,934: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-25 15:45:55,934: INFO: main: *******************]
+[2024-07-25 15:45:55,935: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-25 15:45:55,936: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:45:55,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:45:55,937: INFO: common: created directory at: artifacts]
+[2024-07-25 15:45:55,939: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-25 15:45:56,534: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-25 15:45:57,117: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-25 15:45:57,117: INFO: main: *******************]
+[2024-07-25 15:45:57,117: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-25 15:45:57,123: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:45:57,123: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:45:57,123: INFO: common: created directory at: artifacts]
+[2024-07-25 15:45:57,123: INFO: common: created directory at: artifacts\training]
+[2024-07-25 15:46:37,569: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-25 15:46:37,569: INFO: main: *******************]
+[2024-07-25 15:46:37,569: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-25 15:46:37,569: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:46:37,585: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:46:37,588: INFO: common: created directory at: artifacts]
+[2024-07-25 15:46:49,097: INFO: common: json file saved at: scores.json]
+[2024-07-25 15:46:49,099: INFO: common: json file saved at: scores.json]
+[2024-07-25 15:46:50,531: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-25 15:46:51,154: INFO: builder_impl: Assets written to: C:\Users\ASUS\AppData\Local\Temp\tmpc0s_j_sc\model\data\model\assets]
+[2024-07-25 15:47:04,520: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-25 15:47:46,454: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-07-25 15:47:46,454: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 15:51:01,711: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-07-25 15:51:01,711: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 15:51:38,874: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:51:38] "GET / HTTP/1.1" 200 -]
+[2024-07-25 15:52:13,001: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 15:52:13,049: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:52:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 15:54:21,838: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-07-25 15:54:21,838: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 15:54:21,950: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:54:21] "GET / HTTP/1.1" 200 -]
+[2024-07-25 15:54:38,440: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:54:38] "GET / HTTP/1.1" 200 -]
+[2024-07-25 15:54:47,952: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 15:54:47,965: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:54:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 15:55:00,826: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 15:55:00,834: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:55:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 15:55:13,073: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:55:13] "GET / HTTP/1.1" 200 -]
+[2024-07-25 15:55:26,229: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:55:26] "GET / HTTP/1.1" 200 -]
+[2024-07-25 15:57:22,052: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-25 15:57:22,068: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:57:22,068: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:57:22,068: INFO: common: created directory at: artifacts]
+[2024-07-25 15:57:22,068: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-25 15:57:22,068: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-25 15:58:09,505: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1SJMu4dDBgoltHNZ8iOLB9zygSAGtIDG6/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-25 15:58:10,222: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-25 15:58:10,222: INFO: main: *******************]
+[2024-07-25 15:58:10,222: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-25 15:58:10,222: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:58:10,222: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:58:10,222: INFO: common: created directory at: artifacts]
+[2024-07-25 15:58:10,222: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-25 15:58:10,821: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-25 15:58:11,295: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-25 15:58:11,295: INFO: main: *******************]
+[2024-07-25 15:58:11,311: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-25 15:58:11,311: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 15:58:11,311: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 15:58:11,311: INFO: common: created directory at: artifacts]
+[2024-07-25 15:58:11,311: INFO: common: created directory at: artifacts\training]
+[2024-07-25 15:58:36,471: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-07-25 15:58:36,471: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 15:58:43,861: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:58:43] "GET / HTTP/1.1" 200 -]
+[2024-07-25 15:58:49,757: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 15:58:49,770: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:58:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 15:59:56,854: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 15:59:56] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:00:09,457: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 16:00:09,464: INFO: _internal: 192.168.1.3 - - [25/Jul/2024 16:00:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 16:05:29,275: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-07-25 16:05:29,276: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 16:08:59,152: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.1.3:8081]
+[2024-07-25 16:08:59,152: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 16:09:05,156: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:09:05] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:09:15,970: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 16:09:15,986: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:09:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 16:09:54,607: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:09:54] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:09:54,894: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:09:54] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:09:55,036: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:09:55] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:13:57,670: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.1.3:8081]
+[2024-07-25 16:13:57,670: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 16:14:01,098: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:14:01] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:14:07,227: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 16:14:07,233: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:14:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 16:16:50,872: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.1.3:8081]
+[2024-07-25 16:16:50,872: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 16:16:52,286: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:16:52] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:17:01,747: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 16:17:01,761: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:17:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 16:34:36,368: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.1.3:8081]
+[2024-07-25 16:34:36,368: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 16:34:41,723: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:34:41] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:34:52,237: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 16:34:52,250: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:34:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 16:38:13,176: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.1.3:8081]
+[2024-07-25 16:38:13,176: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-25 16:38:16,909: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:38:16] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:38:25,049: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 16:38:25,056: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:38:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-25 16:55:45,747: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:55:45] "GET / HTTP/1.1" 200 -]
+[2024-07-25 16:55:50,955: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\kidney-disease-classification-deep-learning-project\kidney-disease-classification1\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ASUS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-07-25 16:55:51,066: INFO: _internal: 127.0.0.1 - - [25/Jul/2024 16:55:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ASUS/Desktop/kidney-disease-classification-deep-learning-project/kidney-disease-classification1/mlruns/0/d8feb1971d54485787fa1a5c68a0e69d/artifacts
+end_time: 1721902624520
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8feb1971d54485787fa1a5c68a0e69d
+run_name: sassy-cod-362
+run_uuid: d8feb1971d54485787fa1a5c68a0e69d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721902609354
+status: 3
+tags: []
+user_id: ASUS
